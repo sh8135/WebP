@@ -286,6 +286,8 @@
       <li><a href="#p02">PROJECT 02</a></li>
       <li><a href="#p03">PROJECT 03</a></li>
       <li><a href="#p04">PROJECT 04</a></li>
+      <li><a href="#p05">PROJECT 05</a></li>
+      <li><a href="#p06">PROJECT 06</a></li>
     </ul>
   </div>
 </nav>
@@ -300,7 +302,7 @@
           <h1 class="hero-title">문성호의<span class="accent">포트폴리오</span></h1>
           <p class="hero-sub">퍼즐 게임의 재화 설계와 확률·심리 구조를 분석하는 역기획, 그리고 Unity·C#으로 직접 구현한 소규모 프로젝트들을 담았습니다.</p>
           <div class="hero-tags">
-            <span class="tag">#역기획</span>
+            <span class="tag">#게임기획</span>
             <span class="tag">#GameDesign</span>
             <span class="tag">#Unity</span>
             <span class="tag">#C#</span>
@@ -340,13 +342,15 @@
     <div class="wrap">
       <div class="sec-head" style="margin-bottom:28px;">
         <div class="eyebrow">PROJECTS</div>
-        <h2>네 가지 프로젝트</h2>
+        <h2>여섯 가지 프로젝트</h2>
       </div>
       <div class="proj-index">
-        <a class="proj-pill" href="#p01"><b>01</b> Royal Match 역기획서</a>
-        <a class="proj-pill" href="#p02"><b>02</b> 2D 퍼즐 캐주얼 SinglePlay</a>
-        <a class="proj-pill" href="#p03"><b>03</b> 3D RTS SinglePlay</a>
-        <a class="proj-pill" href="#p04"><b>04</b> 3D 곡사포 시뮬레이션</a>
+        <a class="proj-pill" href="#p01"><b>01</b> 트릭컬리바이브 역기획 및 신규 컨텐츠 기획</a>
+        <a class="proj-pill" href="#p02"><b>02</b> 이세카이게이트 역기획서</a>
+        <a class="proj-pill" href="#p03"><b>03</b> Royal Match 역기획서</a>
+        <a class="proj-pill" href="#p04"><b>04</b> 2D 퍼즐 캐주얼 SinglePlay</a>
+        <a class="proj-pill" href="#p05"><b>05</b> 3D RTS SinglePlay</a>
+        <a class="proj-pill" href="#p06"><b>06</b> 3D 곡사포 시뮬레이션</a>
       </div>
     </div>
   </section>
@@ -356,6 +360,145 @@
     <div class="wrap">
       <div class="project-head">
         <span class="project-num">PROJECT 01</span>
+        <h2>트릭컬리바이브 역기획 및 신규 컨텐츠 기획</h2>
+      </div>
+      <p class="project-kicker">수집형 오토배틀러 RPG 분석 및 신규 협동 콘텐츠 [차원 대대충충돌돌] 제안</p>
+
+      <div class="link-row" style="margin-top:0; margin-bottom:32px;">
+        <a class="link-btn" href="assets/게임기획_트릭컬리바이브_역기획서.pdf" target="_blank" rel="noopener"><span class="ico">▹</span> [트릭컬리바이브_역기획서.pdf] 전체보기</a>
+      </div>
+
+      <div class="meta-table">
+        <div class="k">장르</div><div class="v">수집형 RPG, 전략 오토배틀</div>
+        <div class="k">타겟층</div><div class="v">서브컬처 팬층 & 캐주얼 덱빌딩 유저</div>
+        <div class="k">엔진 / 플랫폼</div><div class="v">Unity / Android, iOS</div>
+        <div class="k">심의 등급</div><div class="v">12세 이용가</div>
+      </div>
+
+      <div class="content-block">
+        <h3>Core Loop & 전투 시스템</h3>
+        <ul>
+          <li>재화 수급: 매일 왕사탕 / 별사탕 소모</li>
+          <li>사도 육성: 보드 색칠, 승급 및 어사이드 승급, 장비 수집, 스킬 강화</li>
+          <li>덱 구축: 6인 조합 or 9인 조합</li>
+          <li>저학년 스킬은 SP 충전 시 자동 발동, 고학년 스킬은 일정 시간마다 자동 or 수동 발동</li>
+          <li>아티팩트 카드 · 스펠 카드로 사도 스탯 강화 및 특수 패시브 부여</li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h3>침략 전투 시스템</h3>
+        <p>순한맛(반복 클리어 가능) — 매운맛(1회, 행운 2·불운 1) — 핵불맛(1회, 행운 1·불운 2) 총 3단계로 구성되며, 각 난이도별 42개씩 총 126개 월드를 공략합니다.</p>
+        <table class="data">
+          <thead><tr><th>별 개수</th><th>순한맛 조건</th><th>매운맛·핵불맛 조건</th></tr></thead>
+          <tbody>
+            <tr><td>★</td><td>모든 몬스터를 무찌르기</td><td>모든 몬스터를 무찌르기</td></tr>
+            <tr><td>★★</td><td>사도가 1번 이하로 쓰러지고 승리하기</td><td>모든 몬스터를 해치우기</td></tr>
+            <tr><td>★★★</td><td>아무도 쓰러지지 않고 승리하기</td><td>모든 몬스터를 쓰러뜨리기</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="content-block">
+        <h3>엘리아스 프론티어 & 성장 밸런스</h3>
+        <p>성격구역(광기/냉정/순수/우울/활발) 중 2곳을 공략해 '실체의 코인'을 모으고, 최종보스구역에서 9인 사도로 시즌 보스에 도전하는 시즌제 랭킹 콘텐츠입니다. 레벨(모카롱·슈카롱), 스킬(마시멜로), 보드(크레용·증명서), 어사이드(하트·응원봉), 장비(장비도안·제련석) 등 재화별로 세분화된 성장 구조를 갖고 있습니다.</p>
+      </div>
+
+      <div class="callout">
+        <h3>Pain Points: 복잡도 증가 & 서사 스케일 증대</h3>
+        <ul style="margin:0;">
+          <li>보드 시스템이 어사이드 등장 이후 의미가 퇴색되었고, 엘리아스 프론티어 등 최종 컨텐츠의 디버프(기절) 기믹 가이드가 부족해 뉴비의 오해를 유발</li>
+          <li>메인 스토리 + 테마극장 감상 시간이 약 40~60시간에 달해 신규 유저에게 '시나리오 인지 과부하'와 진입 장벽으로 작동 → 에피카의 인형극장을 정규 콘텐츠로 편입/확장하고 유튜브·X 등으로 홍보하는 해결책 제안</li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h3>신규 컨텐츠 기획: 실시간 협동 월드 레이 [차원 대대충충돌돌]</h3>
+        <p><span class="highlight">기획 의도</span>: "차원대충돌의 괴수들이 엘리아스로 넘어오는데 성공해 버렸다!" — 특정 지역을 지키기 위해 모든 유저가 실시간으로 수비 근황과 방어도를 공유하며 함께 수비하는 협동 콘셉트입니다. 기존 리소스(평일농장 심부름보내기 맵)를 재활용해 개발 비용을 절감하고, 지역별 보상을 차별화해 어떤 지역을 지킬지 선택하는 재미를 제공합니다.</p>
+      </div>
+
+      <div class="link-row">
+        <a class="link-btn" href="assets/게임기획_트릭컬리바이브_역기획서.pdf" target="_blank" rel="noopener"><span class="ico">▹</span> [트릭컬리바이브_역기획서.pdf] 전체보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT 02 -->
+  <section class="project" id="p02">
+    <div class="wrap">
+      <div class="project-head">
+        <span class="project-num">PROJECT 02</span>
+        <h2>이세카이게이트 역기획서</h2>
+      </div>
+      <p class="project-kicker">3인 실시간 협동 디펜스 RPG 분석 및 신규 컨텐츠 [이세카이게이트 : 수성] 기획</p>
+
+      <div class="link-row" style="margin-top:0; margin-bottom:32px;">
+        <a class="link-btn" href="assets/게임기획_이세카이게이트_역기획서.pdf" target="_blank" rel="noopener"><span class="ico">▹</span> [이세카이게이트_역기획서.pdf] 전체보기</a>
+      </div>
+
+      <div class="meta-table">
+        <div class="k">장르</div><div class="v">실시간 멀티플레이, 디펜스</div>
+        <div class="k">타겟층</div><div class="v">픽셀아트 & 로그라이크 디펜스를 좋아하는 10~20대</div>
+        <div class="k">엔진 / 플랫폼</div><div class="v">Unity / Android, iOS</div>
+        <div class="k">심의 등급</div><div class="v">전체 이용가</div>
+      </div>
+
+      <div class="content-block">
+        <h3>핵심 인게임 구조</h3>
+        <ul>
+          <li>3인 실시간 협동 디펜스: 두 명의 동료(친구 혹은 매칭 유저)와 파티를 이뤄 몰려오는 몬스터를 막아내는 것이 기본 골자</li>
+          <li>직관적인 액션 조작: 가상 패드 + 평타(기본 공격) + 대시(회피기) + 캐릭터 고유 스킬로 유입 접근성을 최대화</li>
+          <li>로그라이크식 성장: 스테이지 클리어마다 골드·경험치 획득 및 장비·버프 카드 선택으로 캐릭터 강화</li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h3>수집 및 성장 요소</h3>
+        <ul>
+          <li><span class="highlight-teal">히어로</span>: 캐릭터 레벨 성장을 통해 수집형 RPG로서의 수집욕을 자극</li>
+          <li><span class="highlight-teal">룬</span>: 다양한 룬으로 캐릭터마다 차별화된 빌드와 전투 메커니즘을 연구</li>
+          <li><span class="highlight-teal">피규어</span>: 모든 캐릭터에 공통 부여되는 영구적인 계정 스펙업 요소</li>
+          <li><span class="highlight-teal">장비 성장</span>: 시즌마다 초기화되는 시스템으로 OP 아이템 밸런스를 조정하고 메타 고착화를 방지</li>
+        </ul>
+      </div>
+
+      <div class="callout">
+        <h3>장점</h3>
+        <ul style="margin:0;">
+          <li>직관적인 조작과 협동의 재미: 쉬운 조작이지만 난이도가 오를수록 긴장감 있는 실시간 컨트롤과 전략적 역할 분담을 제공</li>
+          <li>매력적인 도트 아트를 활용한 수집욕과 시각적 만족감</li>
+          <li>회사 내 기존 IP 콜라보(바드리 / 멜 / 아람이 등)를 통한 친근함</li>
+          <li>'이세계 / 게이트'라는 친근한 소재로 세계관에 자연스럽게 몰입</li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h3>단점 및 아쉬운 점</h3>
+        <ul>
+          <li><span class="highlight">컨텐츠 부족</span>: 긴 플레이타임 대비 맵 차별화가 부족해 같은 경험을 반복하는 느낌 → 로드맵 보스 컨텐츠 추가로 일부 해소 기대</li>
+          <li><span class="highlight">설계 미스</span>: 효율을 위해 중간보스를 스킵하고 강한 유저가 버프를 독식하는 '다잡' 플레이 방식이 고레벨 유저 사이에서 고착화, 정보 격차로 인한 유저 간 분쟁 가능성 존재</li>
+          <li><span class="highlight">아쉬운 밸런스</span>: 일부 히어로가 지나치게 강하다는 커뮤니티 의견 존재 → 매 시즌 아이템 스탯·강화석 소모 비율을 조정하고 커뮤니티 반응을 조사해 대응</li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h3>신규 컨텐츠 기획: 이세카이게이트 : 수성</h3>
+        <p><span class="highlight">기존 기획</span>: 제한시간 안에 히어로를 최대한 성장시키고 보스를 격파 → <span class="highlight-teal">신규 기획</span>: 기존 규칙을 더욱 단순화하여 디펜스에 집중</p>
+        <p><span class="highlight">기획 목적</span>: 다양한 플레이스타일로 인한 유저 분쟁을 최소화하는 복잡도 최적화, 몬스터를 찾아가는 것이 아닌 먼저 찾아오는 몬스터를 쓸어버리는 핵앤슬래시 재미 극대화를 목표로 합니다.</p>
+        <p><span class="highlight">상세 규칙</span>: 6~8분 동안 거점을 지키면 성공, 거점이 파괴되면 실패. 몬스터는 맵의 남쪽·동쪽에서 랜덤 등장해 거점을 향해 이동하며, 1분 30초마다 보스 몬스터가 등장합니다. 기존 스테이지 클리어 시 등장하던 상자는 몬스터 처치 시 일정 확률(3%)로 드랍되도록 변경했습니다.</p>
+      </div>
+
+      <div class="link-row">
+        <a class="link-btn" href="assets/게임기획_이세카이게이트_역기획서.pdf" target="_blank" rel="noopener"><span class="ico">▹</span> [이세카이게이트_역기획서.pdf] 전체보기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT 03 -->
+  <section class="project" id="p03">
+    <div class="wrap">
+      <div class="project-head">
+        <span class="project-num">PROJECT 03</span>
         <h2>"Royal Match" 역기획서</h2>
       </div>
       <p class="project-kicker">글로벌 매출 1위 3매치 퍼즐 게임의 재화·확률 설계를 역으로 분석한 기획 문서</p>
@@ -464,11 +607,11 @@
     </div>
   </section>
 
-  <!-- PROJECT 02 -->
-  <section class="project" id="p02">
+  <!-- PROJECT 04 -->
+  <section class="project" id="p04">
     <div class="wrap">
       <div class="project-head">
-        <span class="project-num">PROJECT 02</span>
+        <span class="project-num">PROJECT 04</span>
         <h2>2D_퍼즐_캐주얼_SinglePlay</h2>
       </div>
       <p class="project-kicker">Coroutine을 활용한 비동기 전투 시스템 개인 프로젝트</p>
@@ -537,11 +680,11 @@
     </div>
   </section>
 
-  <!-- PROJECT 03 -->
-  <section class="project" id="p03">
+  <!-- PROJECT 05 -->
+  <section class="project" id="p05">
     <div class="wrap">
       <div class="project-head">
-        <span class="project-num">PROJECT 03</span>
+        <span class="project-num">PROJECT 05</span>
         <h2>3D_RTS_SinglePlay</h2>
       </div>
       <p class="project-kicker">Unity 스크립팅 API 학습을 목적으로 진행한 개인 프로젝트</p>
@@ -568,11 +711,11 @@
     </div>
   </section>
 
-  <!-- PROJECT 04 -->
-  <section class="project" id="p04">
+  <!-- PROJECT 06 -->
+  <section class="project" id="p06">
     <div class="wrap">
       <div class="project-head">
-        <span class="project-num">PROJECT 04</span>
+        <span class="project-num">PROJECT 06</span>
         <h2>3D_간단한 곡사포 시뮬레이션</h2>
       </div>
       <p class="project-kicker">포물선 운동 공식을 직접 구현해 본 곡사포 함수 테스트</p>
